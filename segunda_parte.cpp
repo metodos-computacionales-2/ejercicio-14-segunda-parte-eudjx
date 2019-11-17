@@ -18,11 +18,6 @@ void euler(double h);
 
 int main(void)
 {
-	double f0=1.0;
-double f1=0.0;
-double k=50.0;
-double m=2.0;
-double y=0.8;
   double x, v, time;
   x = 1;
   v = 0;
