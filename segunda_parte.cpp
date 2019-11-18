@@ -36,9 +36,9 @@ double f0(double t, double y0, double y1)
 
 double f1(double t, double y0, double y1)
 {
-  //double coef=0.8;
-   //double vel=15;
-  return (-K/M)*pow(y0, LAMBDA);
+  double coef=0.8;
+  double vel=15;
+  return (-K/M)*pow(y0, LAMBDA)-vel*coef;
 }
 
 void rk4(double t, double h, double & y0, double & y1) // metodo de runge kutta 4 orden
